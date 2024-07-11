@@ -107,7 +107,7 @@ def ask():
             cave()
             break
         elif choice == 2:
-            
+            continue_explore
             break
         else:
             print("please try again")
