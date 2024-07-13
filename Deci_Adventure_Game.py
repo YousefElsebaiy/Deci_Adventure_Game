@@ -319,14 +319,14 @@ def stay():
             pause("So you have lost")
             print("You want play again (1 'for yes' or 2 'for no')")
             while True:
-                choice
-                if choice == '1':
+                choi = input("Enter you choice (1 or 2)\n")
+                if choi == '1':
                     pause("ok")
                     pause("\n\nStart game now\n\n")
                     score = 0
                     start_game()
                     break
-                elif choice == '2':
+                elif choi == '2':
                     pause("Thank you for played this game")
                     print("bye bye")
                     break
@@ -365,14 +365,14 @@ def continue_explore():
                     pause("You are win")
                     print("You want play again (1 'for yes' or 2 'for no')")
                     while True:
-                        choice = input("Enter your choice: \n")
-                        if choice == '1':
+                        cho = input("Enter your choice: \n")
+                        if cho == '1':
                             pause("ok")
                             pause("\n\nStart game now\n\n")
                             score = 0
                             start_game()
                             break
-                        if choice == '2':
+                        if cho == '2':
                             pause("Thank you for played this game")
                             print("bye bye")
                             break
@@ -386,14 +386,14 @@ def continue_explore():
                     pause("So you have lost")
                     print("You want play again (1 'for yes' or 2 'for no')")
                     while True:
-                        choice
-                        if choice == '1':
+                        choi = input("Enter your choice (1 or 2):\n")
+                        if choi == '1':
                             pause("ok")
                             pause("\n\nStart game now\n\n")
                             score = 0
                             start_game()
                             break
-                        elif choice == '2':
+                        elif choi == '2':
                             pause("Thank you for played this game")
                             print("bye bye")
                             break
@@ -408,4 +408,4 @@ def continue_explore():
             break
 
 
-start_game()
+stay()
